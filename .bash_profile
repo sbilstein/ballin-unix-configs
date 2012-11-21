@@ -24,22 +24,26 @@ export AXIS2_HOME=~/lib/axis2-1.6.1
 export BEES_HOME=~/code/cloudbees-sdk-1.2.1
 export PATH=/usr/local/bin:$PATH:~/bin:$SCALA_HOME/bin:$PLAY_HOME:$PLAY2_HOME:$MYSQL:$BEES_HOME:$JENKINS:$AXIS2_HOME:$REDIS:$JAVA_HOME/bin
 export CLASSPATH=/lib
-#Shortcuts
+# Shortcuts
 export CODE=~/code
 export EGS=$CODE/egraphs/eGraphsServers
 export DESIGN=~/Dropbox/Design/egraphs_superbig_final
 export FRONTEND=$EGS/.modules/frontend/test-app 
 
-#Alias for common directories
+# Alias for common directories
 alias code='cd $CODE'
 alias egs='cd $EGS'
 alias libs='cd ~/lib'
 alias design='cd $DESIGN'
 alias frontend='cd $FRONTEND'
 alias deputy='cd $CODE/egraphs/deputy'
-#Set Vim as default editor
-export EDITOR=vim
-#helpful util
+
+# Set Vim as default editor
+# export EDITOR=vim
+# Just kidding, use Sublime Text 2 as default editor
+export EDITOR='subl -w'
+
+#helpful utils
 alias pp='python -mjson.tool'
 
 
